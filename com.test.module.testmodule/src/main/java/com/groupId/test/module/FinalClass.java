@@ -1,4 +1,4 @@
-package com.groupId.com.test.module.testmodule;
+package com.groupId.test.module;
 
 public final class FinalClass {
 

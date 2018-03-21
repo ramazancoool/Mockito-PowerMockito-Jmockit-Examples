@@ -1,4 +1,4 @@
-package deneme.iki.testmodule;
+package com.groupId.test.module.second;
 
 public class Allocator {
     String allocationValue;

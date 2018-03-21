@@ -6,15 +6,15 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.groupId.com.test.module.testmodule.FinalClass;
-import com.groupId.com.test.module.testmodule.FooClass;
-import com.groupId.com.test.module.testmodule.FooService;
-import com.groupId.com.test.module.testmodule.InitClass;
-import com.groupId.com.test.module.testmodule.StaticMethodClass;
+import com.groupId.test.module.FinalClass;
+import com.groupId.test.module.FooClass;
+import com.groupId.test.module.FooService;
+import com.groupId.test.module.InitClass;
+import com.groupId.test.module.StaticMethodClass;
+import com.groupId.test.module.second.Allocator;
+import com.groupId.test.module.second.NameValidator;
+import com.groupId.test.module.second.Person;
 
-import deneme.iki.testmodule.Allocator;
-import deneme.iki.testmodule.NameValidator;
-import deneme.iki.testmodule.Person;
 import mockit.Deencapsulation;
 import mockit.Expectations;
 import mockit.Injectable;
