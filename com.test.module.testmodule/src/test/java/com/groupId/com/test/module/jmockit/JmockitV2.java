@@ -1,10 +1,16 @@
-package com.groupId.com.test.module.testmodule;
+package com.groupId.com.test.module.jmockit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import com.groupId.com.test.module.testmodule.FinalClass;
+import com.groupId.com.test.module.testmodule.FooClass;
+import com.groupId.com.test.module.testmodule.FooService;
+import com.groupId.com.test.module.testmodule.InitClass;
+import com.groupId.com.test.module.testmodule.StaticMethodClass;
 
 import deneme.iki.testmodule.Allocator;
 import deneme.iki.testmodule.NameValidator;
