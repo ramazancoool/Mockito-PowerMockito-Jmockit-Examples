@@ -2,7 +2,7 @@ package com.groupId.test.mockito;
 
 import java.util.List;
 
-public class FooServiceImpl implements IMockitoFooService {
+public class FooServiceImpl implements IFooService {
 
 	@Override
 	public void voidMethod() {

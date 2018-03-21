@@ -7,7 +7,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import com.groupId.test.mockito.FooContainerClass;
-import com.groupId.test.mockito.IMockitoFooService;
+import com.groupId.test.mockito.IFooService;
 /**
  *This's field injection. The field's all methods are empty and return null
  */
@@ -17,7 +17,7 @@ public class MockitoUnitTestWithInjection {
 	FooContainerClass fooContainerClass = new FooContainerClass();
 	
 	@Mock
-	IMockitoFooService fooService;
+	IFooService fooService;
 	
 	@Before
 	public void before(){

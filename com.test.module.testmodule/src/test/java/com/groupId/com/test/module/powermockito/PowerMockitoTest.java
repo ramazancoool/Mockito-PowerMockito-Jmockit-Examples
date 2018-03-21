@@ -7,16 +7,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Matchers;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import com.groupId.test.powermockito.FooEntity;
-import com.groupId.test.powermockito.ServiceClass;
 import com.groupId.test.powermockito.ContainerClass;
 import com.groupId.test.powermockito.FactoryClass;
+import com.groupId.test.powermockito.FooEntity;
+import com.groupId.test.powermockito.ServiceClass;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({ServiceClass.class, FactoryClass.class})

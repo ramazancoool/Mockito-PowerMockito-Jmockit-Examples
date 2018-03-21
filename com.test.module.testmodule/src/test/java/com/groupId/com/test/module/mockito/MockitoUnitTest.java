@@ -12,7 +12,7 @@ import org.mockito.MockitoAnnotations;
 
 import com.groupId.test.mockito.FooContainerClass;
 import com.groupId.test.mockito.FooEntity;
-import com.groupId.test.mockito.IMockitoFooService;
+import com.groupId.test.mockito.IFooService;
 
 /**
  *This's method injection using setter method.
@@ -30,7 +30,7 @@ public class MockitoUnitTest {
 	@Test
 	public void fooServiceTest(){
 		
-		IMockitoFooService fooService = Mockito.mock(IMockitoFooService.class);
+		IFooService fooService = Mockito.mock(IFooService.class);
 		fooContainerClass.setService(fooService);
 		
 		List<Double> doubleList = new ArrayList<Double>();

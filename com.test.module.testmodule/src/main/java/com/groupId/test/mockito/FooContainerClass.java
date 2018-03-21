@@ -5,9 +5,9 @@ import java.util.List;
 
 public class FooContainerClass {
 
-	private IMockitoFooService service;
+	private IFooService service;
 
-	public void setService(IMockitoFooService service) {
+	public void setService(IFooService service) {
 		this.service = service;
 	}
 	

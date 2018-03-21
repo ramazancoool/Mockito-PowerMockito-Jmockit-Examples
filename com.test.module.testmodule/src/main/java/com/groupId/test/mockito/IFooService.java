@@ -2,7 +2,7 @@ package com.groupId.test.mockito;
 
 import java.util.List;
 
-public interface IMockitoFooService {
+public interface IFooService {
 
 	void voidMethod();
 	String returnString();
